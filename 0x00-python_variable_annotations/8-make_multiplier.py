@@ -8,4 +8,4 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     def times(val: float) -> float:
         """Returns Callable type"""
         return val * multiplier
-
+    return times
