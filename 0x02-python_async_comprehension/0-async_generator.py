@@ -5,7 +5,7 @@ import random
 
 
 async def async_generator():
-    """Yileds random numbers"""
+    """Yields random numbers"""
     for _ in range(10):
         await asyncio.sleep(1)
-        yield random.unifrom(0, 10)
+        yield random.uniform(0, 10)
